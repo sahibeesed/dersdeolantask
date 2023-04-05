@@ -1,0 +1,119 @@
+.navbar {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul a {
+  text-decoration: none;
+}
+
+.alt {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  width: 80%;
+  margin: 20px 10%;
+  justify-content: flex-end;
+  gap: 50px;
+  height: 60px;
+  align-items: center;
+  padding-right: 20px;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+.alt img {
+  padding-right: 28%;
+}
+.alt li a {
+  color: black;
+}
+
+.active {
+  color: orange !important;
+}
+
+.alt li:hover a {
+  color: orange;
+}
+
+.ust {
+  display: flex;
+  align-items: center;
+}
+.ust #bar {
+  padding-right: 5%;
+}
+
+.ort {
+  width: 40%;
+  margin: 100px 30%;
+}
+.ort #ser {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin: 0 5%;
+  padding: 5px 10%;
+}
+.ort #bst {
+  background-color: rgb(255, 81, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 50px;
+  padding: 5px 10%;
+}
+.ort .btn {
+  width: 25%;
+  padding: 20px 0;
+  margin: 40px 35%;
+  border-radius: 25px;
+  border: 5px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.ort .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.bd {
+  background-image: url(https://megaone.acrothemes.com/cafe/images/banner-image.jpg);
+}
+
+.social {
+  width: 5%;
+  position: absolute;
+  top: 32%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#in {
+  border: 15px;
+  padding: 20px 20px;
+  border-radius: 50%;
+}
+
+#f {
+  border: 15px;
+  padding: 20px 20px;
+  border-radius: 50%;
+}
+
+#ins {
+  border: 15px;
+  padding: 20px 20px;
+  border-radius: 50%;
+}
+
+#tw {
+  border: 15px;
+  padding: 20px 20px;
+  border-radius: 50%;
+}/*# sourceMappingURL=sass.css.map */
