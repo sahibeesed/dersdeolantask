@@ -25,7 +25,8 @@
   font-weight: 600;
 }
 .alt img {
-  padding-right: 28%;
+  height: 65px;
+  padding-right: 40%;
 }
 .alt li a {
   color: black;
@@ -49,7 +50,7 @@
 
 .ort {
   width: 40%;
-  margin: 100px 30%;
+  margin: 150px 32%;
 }
 .ort #ser {
   background-color: black;
@@ -115,5 +116,125 @@
 #tw {
   border: 15px;
   padding: 20px 20px;
+  border-radius: 50%;
+}
+
+.img2 {
+  padding: 10% 10%;
+}
+
+.body .lamp {
+  padding: 0% 10%;
+  align-items: center;
+  display: flex;
+}
+.body .lamp :hover {
+  color: orangered;
+}
+.body .bag {
+  padding: 0 0 0% 60%;
+  align-items: center;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+}
+.body .bag :hover {
+  color: orangered;
+}
+.body .heart {
+  align-items: center;
+  width: 38%;
+  display: flex;
+  padding: 0% 10%;
+}
+.body .heart :hover {
+  color: orangered;
+}
+.body .son {
+  background-color: orangered;
+  display: flex;
+  justify-content: space-around;
+  height: 30vh;
+  padding: 15vh;
+}
+.body .son .cf {
+  color: white;
+}
+.body .son .orta {
+  width: 28%;
+  text-align: center;
+  padding: 40px;
+}
+.body .qr {
+  color: white;
+}
+
+.as {
+  text-align: center;
+  padding: 10% 30%;
+}
+
+.img {
+  width: 80%;
+  margin: 3% 20%;
+}
+.img .wd {
+  display: flex;
+  flex-direction: row;
+}
+.img .md {
+  display: flex;
+  flex-direction: row;
+}
+.img .bir {
+  width: 20%;
+  height: 40vh;
+}
+.img .bir .bir :hover {
+  width: 40%;
+  height: 80vh;
+}
+.img .iki {
+  width: 20%;
+  height: 40vh;
+}
+.img .iki .iki :hover {
+  width: 40%;
+  height: 80vh;
+}
+.img .uc {
+  width: 40%;
+  height: 40vh;
+}
+.img .drd {
+  width: 35%;
+  height: 35vh;
+}
+.img .bs {
+  width: 25%;
+  height: 35vh;
+}
+.img .al {
+  width: 20%;
+  height: 35vh;
+}
+.img .yd {
+  width: 30%;
+  height: 25vh;
+}
+.img .sg {
+  width: 50%;
+  height: 25vh;
+}
+
+.ucu {
+  padding: 10% 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.ucu .img3 {
+  width: 20%;
   border-radius: 50%;
 }/*# sourceMappingURL=sass.css.map */
